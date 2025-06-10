@@ -113,7 +113,8 @@ html {
   font-size: 10px;
   overflow: hidden;
   overflow-y: auto;
-  scroll-behavior: auto !important;
+  /* scroll-behavior: auto !important; */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -128,6 +129,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   background: #fff;
+  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -30363,3 +30365,8 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
   --bs-gutter-y: 40px;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.numbered-list {
+  list-style: decimal;
+}
