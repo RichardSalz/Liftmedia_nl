@@ -11548,6 +11548,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   align-items: center;
   gap: 50px;
   margin-top: 50px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 .service-details-left-area .service-short-main-wrapper .single-short-service {
@@ -11599,6 +11600,17 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   font-size: 18px;
   color: #161921;
 }
+
+.single-step-service-details .feature {
+  width: 30%;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-step-service-details .feature {
+    width: 50%;
+  }
+}
+
 .single-step-service-details .feature p {
   margin: 0;
 }
@@ -30323,6 +30335,7 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
     margin-bottom: -50px;
   }
 }
+
 
 @media only screen and (max-width: 767px) {
   .mb_dec--35 {
