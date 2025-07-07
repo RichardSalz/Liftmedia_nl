@@ -9154,7 +9154,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 575px) {
   .banner-bg_12 {
-    background-position: 75% center;
+    background-position: center;
   }
 }
 
@@ -9213,7 +9213,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   position: relative;
   z-index: 1;
 }
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
   .rts-banner-ten-area::after {
     position: absolute;
     content: "";
@@ -9224,7 +9224,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
     background: rgba(255, 255, 255, 0.3882352941);
     z-index: -1;
   }
-}
+} */
 .rts-banner-ten-area .chart-image img {
   animation: jump-2 5s linear infinite;
 }
