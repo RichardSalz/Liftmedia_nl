@@ -30383,3 +30383,7 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
 .numbered-list {
   list-style: decimal;
 }
+
+.logosign {
+  font-size: 32pt;
+}
