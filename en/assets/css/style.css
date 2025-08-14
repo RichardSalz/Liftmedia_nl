@@ -9143,7 +9143,9 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 
 .banner-bg_12 {
   height: 900px;
-  background-image: url(../images/banner/13.webp);
+  /* background-image: url(../images/banner/13.webp); */
+  /* background-image: url(../images/own/background-elevator-1.png); */
+  background-image: url(../images/own/background-elevator-2_o.png);
   display: flex;
   align-items: center;
 }
@@ -9163,10 +9165,12 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   align-items: center;
   gap: 10px;
   font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
   color: #FFFFFF;
 }
 .banner-inner-content-12 .title {
   font-size: 80px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
   line-height: 1.1;
   color: #fff;
 }
@@ -9182,6 +9186,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 .banner-inner-content-12 p.disc {
   font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
   color: #fff;
   max-width: 55%;
   font-weight: 300;
